@@ -1,1 +1,1 @@
-{"version":3,"sources":["../scss/globals/_main.scss"],"names":[],"mappings":"AAEA,mBAGE,QAAA,CACA,QAAA,CACA,qBAAA,CAGF,KACE,cAAA","file":"style.css"}
+{"version":3,"sources":["../scss/globals/_variables.scss","../scss/globals/_main.scss"],"names":[],"mappings":"AAAQ,mFAAA,CAEA,qFAAA,CAAA,mBCGN,QAAA,CACA,QAAA,CACA,qBAAA,CAGF,KACE,cAAA,CACA,wBAAA","file":"style.css"}
