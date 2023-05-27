@@ -96,18 +96,17 @@ button {
     background-color: v.$dark-blue-main-bg;
     position: relative;
     margin-top: -5px;
-    padding-inline: 90px;
+    padding-inline: 290px;
     ul {
       display: grid;
       justify-content: center;
       align-items: center;
-      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 60px;
       position: relative;
       margin-top: -30px;
       width: 100%;
       li {
-        padding: 0 60px;
         color: v.$white;
         text-align: center;
         img {
