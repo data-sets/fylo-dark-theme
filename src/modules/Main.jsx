@@ -5,7 +5,7 @@ import Collab from "../images/icon-collaboration.svg";
 export default function Main() {
   return (
     <>
-      <section className="app__main--section">
+      <main className="app__main--section">
         <ul>
           <li>
             <img src={Access} alt="" />
@@ -42,7 +42,7 @@ export default function Main() {
             </p>
           </li>
         </ul>
-      </section>
+      </main>
     </>
   );
 }
