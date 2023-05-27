@@ -16,12 +16,6 @@ export default function Header() {
           family, and co-workers.
         </p>
         <button>Get Started</button>
-      </header>
-      <div className="illustration">
-        <img src={DesktopCurly} alt="Curly Shape" />
-      </div>
-
-      <main className="app__main--section">
         <ul>
           <li>
             <img src={Access} alt="" />
@@ -58,6 +52,13 @@ export default function Header() {
             </p>
           </li>
         </ul>
+      </header>
+      <div className="illustration">
+        <img src={DesktopCurly} alt="Curly Shape" />
+      </div>
+
+      <main className="app__main--section">
+        
       </main>
     </>
   );
