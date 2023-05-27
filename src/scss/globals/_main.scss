@@ -105,11 +105,13 @@ button {
       gap: 60px;
       position: relative;
       margin-top: -30px;
-      width: 100%;
+
       max-width: 1080px;
+
       margin: 0 auto;
       li {
         color: v.$white;
+        width: 100%;
         text-align: center;
         img {
           padding-bottom: 15px;
