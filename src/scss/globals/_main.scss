@@ -92,7 +92,30 @@ button {
     }
   }
   &__main--section {
-    background-color: blue;
+    background-color: v.$dark-blue-main-bg;
+    position: relative;
+    margin-top: -5px;
+    padding-inline: 90px;
+    ul {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 60px;
+      position: relative;
+      margin-top: -30px;
+      li {
+        padding: 0 60px;
+        color: v.$white;
+        text-align: center;
+        img{
+          padding-bottom: 15px;
+        }
+        p{
+          padding-inline: 50px;
+        }
+      }
+    }
   }
   &__footer--section {
     background-color: green;

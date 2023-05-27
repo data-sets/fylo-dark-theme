@@ -1,6 +1,6 @@
 import Navigation from "./modules/Navigation";
 import Header from "./modules/Header";
-// import Main from "./modules/Main";
+import Main from "./modules/Main";
 // import Footer from "./modules/Footer";
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
       <div className="app">
         <Navigation />
         <Header />
-        {/* <Main />
-        <Footer /> */}
+        <Main />
+        {/* <Footer /> */}
       </div>
     </>
   );
