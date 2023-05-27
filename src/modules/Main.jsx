@@ -6,13 +6,15 @@ export default function Main() {
   return (
     <>
       <main className="app__main--section">
-      <h3>Access your files, anywhere</h3>
+        <ul>
+          <li>
+            <img src={Access} alt="" />
+            <h3>Access your files, anywhere</h3>
             <p>
               The ability to use a smartphone, tablet, or computer to access
               your account means your files follow you everywhere.
             </p>
-        <ul>
-          
+          </li>
           <li>
             <img src={Security} alt="" />
             <h3>Security you can trust</h3>
