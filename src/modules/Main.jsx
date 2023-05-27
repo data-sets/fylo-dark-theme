@@ -25,7 +25,7 @@ export default function Main() {
             </p>
           </li>
           <li>
-            <img src={Collab} alt="" />
+            <img src={File} alt="" />
             <h3>Real-time collaboration</h3>
             <p>
               Securely share files and folders with friends, family and

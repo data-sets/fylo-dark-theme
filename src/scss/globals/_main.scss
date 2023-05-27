@@ -67,7 +67,7 @@ button {
     margin: 0 auto;
     color: v.$white;
     text-align: center;
-
+    width: 50%;
 
     button {
       width: 260px;
@@ -97,7 +97,6 @@ button {
     position: relative;
     margin-top: -5px;
     padding-inline: 90px;
-    width: 100%;
     ul {
       display: grid;
       justify-content: center;
@@ -115,7 +114,7 @@ button {
         }
         p {
           padding-inline: 50px;
-          font-size: 1em;
+          font-size: 1rem;
         }
       }
     }
