@@ -5,7 +5,7 @@ import Collab from "../images/icon-collaboration.svg";
 export default function Main() {
   return (
     <>
-      <main className="app__main--section">
+      <section className="app__main--section">
         <ul>
           <li>
             <img src={Access} alt="" />
@@ -33,7 +33,7 @@ export default function Main() {
             </p>
           </li>
           <li>
-            <img src={File} alt="" />
+            <img src={Collab} alt="" />
             <h3>Store any type of file</h3>
             <p>
               Whether you're sharing holidays photos or work documents, Fylo has
@@ -42,7 +42,7 @@ export default function Main() {
             </p>
           </li>
         </ul>
-      </main>
+      </section>
     </>
   );
 }
