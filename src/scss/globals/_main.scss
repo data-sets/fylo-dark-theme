@@ -10,5 +10,100 @@
 
 html {
   font-size: 16px;
-  background-color: v.$blue;
+}
+
+body {
+  background-color: v.$dark-blue-sign-up;
+  font-family: v.$font-family-open-sans;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+}
+
+.app {
+  max-width: 100%;
+  margin: 0 auto;
+
+  &__navigation--section {
+    margin-top: 40px;
+    padding-inline: 90px;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        &:last-child {
+          ul {
+            display: flex;
+            gap: 50px;
+            a {
+              color: v.$white;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__header--section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: v.$white;
+    text-align: center;
+    width: 50%;
+
+    button {
+      width: 260px;
+      height: 46px;
+      margin: 0 auto;
+      background-color: v.$blue;
+      border-radius: 30px;
+      color: v.$white;
+      font-size: 1rem;
+    }
+    img {
+      display: inline-block;
+      margin: 0 auto;
+      padding-top: 50px;
+      padding-bottom: 25px;
+    }
+    h1 {
+      padding: 0 95px;
+    }
+    p {
+      padding: 20px 125px;
+      font-size: 1.25rem;
+    }
+  }
+  &__main--section {
+    background-color: blue;
+  }
+  &__footer--section {
+    background-color: green;
+  }
+}
+
+.illustration {
+  position: relative;
+  margin-top: -200px;
+  z-index: -1;
+  img {
+    width: 100%;
+  }
 }
