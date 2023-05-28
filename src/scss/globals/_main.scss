@@ -171,9 +171,11 @@ button {
 
   &__testimonial--section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin: 0 100px;
+
+    width: 80%;
+    margin: 0 auto;
     div {
       background-color: v.$dark-blue-test-bg;
       padding: 30px;
@@ -224,6 +226,7 @@ button {
   .app {
     &__productive--section {
       padding: 0 30px;
+
       div {
         &:last-child {
           h2 {
@@ -232,8 +235,9 @@ button {
         }
       }
     }
-    &__testimonial--section{
+    &__testimonial--section {
       margin: 0 30px;
+      display: block;
     }
     &__navigation--section {
       padding: 0 20px;
