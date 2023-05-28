@@ -83,12 +83,13 @@ button {
       margin: 0 auto;
       padding-top: 50px;
       padding-bottom: 25px;
+      width: 100%;
     }
     h1 {
       padding: 0 95px;
     }
     p {
-      padding: 20px 125px;
+      // padding: 20px 125px;
       font-size: 1.25rem;
     }
   }
@@ -136,8 +137,24 @@ button {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .app {
+    &__navigation--section {
+      padding: 0;
+    }
+    &__header--section {
+      width: 100%;
+      h1,
+      p {
+        padding: 0;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+      button {
+        margin-bottom: 200px;
+      }
+    }
     &__main--section {
       ul {
         display: block;
