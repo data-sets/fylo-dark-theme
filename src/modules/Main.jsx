@@ -2,6 +2,9 @@ import File from "../images/icon-any-file.svg";
 import Security from "../images/icon-security.svg";
 import Access from "../images/icon-access-anywhere.svg";
 import Collab from "../images/icon-collaboration.svg";
+import Team from "../images/illustration-stay-productive.png";
+import Arrow from "../images/icon-arrow.svg";
+
 export default function Main() {
   return (
     <>
@@ -42,7 +45,27 @@ export default function Main() {
             </p>
           </li>
         </ul>
-        <section></section>
+        <section className="app__productive--section">
+          <div>
+            <img src={Team} alt="" />
+          </div>
+          <div>
+            <h2>Stay productive, wherever you are</h2>
+            <p>
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p>
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required.
+            </p>
+            <span>
+              <a href="/">
+                See how Fylo works <img src={Arrow} alt="Arrow" />
+              </a>
+            </span>
+          </div>
+        </section>
       </main>
     </>
   );

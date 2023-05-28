@@ -130,6 +130,45 @@ button {
       }
     }
   }
+  &__productive--section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 0 auto;
+    padding: 0 105px;
+    gap: 20px;
+    div {
+      margin-bottom: 150px;
+      &:first-child {
+        img {
+          width: 100%;
+        }
+      }
+      &:last-child {
+        color: v.$white;
+        padding-right: 50px;
+
+        h2 {
+          font-size: 2.25rem;
+          margin-bottom: 20px;
+        }
+        p {
+          padding-bottom: 20px;
+        }
+        span {
+          a {
+            color: v.$cyan;
+            &:hover {
+              color: v.$white;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
   &__footer--section {
     background-color: green;
   }
@@ -159,6 +198,16 @@ button {
     }
   }
   .app {
+    &__productive--section {
+      padding: 0 30px;
+      div {
+        &:last-child {
+          h2 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
     &__navigation--section {
       padding: 0 20px;
       ul {
