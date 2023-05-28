@@ -171,16 +171,16 @@ button {
 
   &__testimonial--section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
-
+    max-width: 1080px;
     margin: 0 auto;
     div {
       background-color: v.$dark-blue-test-bg;
       padding: 30px;
       border-radius: 5px;
       color: v.$white;
-      width: 80%;
+
       h5 {
         font-weight: normal;
       }
