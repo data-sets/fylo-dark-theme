@@ -8,7 +8,7 @@ export default function Main() {
       <main className="app__main--section">
         <ul>
           <li>
-            <img src={Access} alt="" />
+            <img src={Access} alt="Access Logo" />
             <h3>Access your files, anywhere</h3>
             <p>
               The ability to use a smartphone, tablet, or computer to access
@@ -16,7 +16,7 @@ export default function Main() {
             </p>
           </li>
           <li>
-            <img src={Security} alt="" />
+            <img src={Security} alt="Security Logo" />
             <h3>Security you can trust</h3>
             <p>
               2-factor authentication and user-controlled encryption are just a
@@ -25,7 +25,7 @@ export default function Main() {
             </p>
           </li>
           <li>
-            <img src={File} alt="" />
+            <img src={File} alt="File Logo" />
             <h3>Real-time collaboration</h3>
             <p>
               Securely share files and folders with friends, family and
@@ -33,7 +33,7 @@ export default function Main() {
             </p>
           </li>
           <li>
-            <img src={Collab} alt="" />
+            <img src={Collab} alt="Collab Logo" />
             <h3>Store any type of file</h3>
             <p>
               Whether you're sharing holidays photos or work documents, Fylo has

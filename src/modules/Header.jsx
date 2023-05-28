@@ -1,5 +1,6 @@
 import Illustration from "../images/illustration-intro.png";
 import DesktopCurly from "../images/bg-curvy-desktop.svg";
+import MobileCurly from "../images/bg-curvy-mobile.svg";
 
 export default function Header() {
   return (
@@ -16,6 +17,7 @@ export default function Header() {
       </header>
       <div className="illustration">
         <img src={DesktopCurly} alt="Curly Shape" />
+        <img src={MobileCurly} alt="Curly Shape Mobile" />
       </div>
     </>
   );

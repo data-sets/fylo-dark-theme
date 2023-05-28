@@ -94,24 +94,20 @@ button {
   &__main--section {
     background-color: v.$dark-blue-main-bg;
     position: relative;
-    margin-top: -5px;
+    margin-top: -28px;
 
     ul {
       display: grid;
       justify-content: center;
       align-items: center;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       position: relative;
-      margin-top: -30px;
       max-width: 1080px;
-      width: 100%;
       margin: 0 auto;
-      padding: 20px;
+      padding-inline: 100px;
       li {
         color: v.$white;
-
         text-align: center;
-        padding: 20px;
         img {
           padding-bottom: 15px;
         }
@@ -132,6 +128,9 @@ button {
   z-index: -1;
   img {
     width: 100%;
+    &:last-child {
+      display: none;
+    }
   }
 }
 
@@ -139,6 +138,23 @@ button {
   .app {
     &__navigation--section {
       padding: 0;
+      ul {
+        li {
+          &:last-child {
+            ul {
+              gap: 20px;
+              li {
+                a {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+          img {
+            width: 80%;
+          }
+        }
+      }
     }
     &__header--section {
       width: 100%;
