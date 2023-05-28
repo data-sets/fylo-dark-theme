@@ -95,7 +95,6 @@ button {
     background-color: v.$dark-blue-main-bg;
     position: relative;
     margin-top: -28px;
-
     ul {
       display: grid;
       justify-content: center;
@@ -103,16 +102,20 @@ button {
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       position: relative;
       max-width: 1080px;
+      width: 100%;
       margin: 0 auto;
       padding-inline: 100px;
+      gap: 60px;
       li {
         color: v.$white;
         text-align: center;
+        width: 100%;
         img {
           padding-bottom: 15px;
         }
         p {
           font-size: 1rem;
+          line-height: 1.9;
         }
       }
     }
@@ -158,20 +161,33 @@ button {
     }
     &__header--section {
       width: 100%;
+      padding-inline: 20px;
       h1,
       p {
-        padding: 0;
+        padding: 10px 0;
+      }
+      p {
+        font-size: 1rem;
+        line-height: 1.7;
       }
       h1 {
         font-size: 1.75rem;
       }
       button {
         margin-bottom: 200px;
+        margin-top: 20px;
       }
     }
     &__main--section {
       ul {
         display: block;
+        padding-inline: 30px;
+        li {
+          margin-bottom: 50px;
+          img {
+            margin-bottom: 10px;
+          }
+        }
       }
     }
   }
