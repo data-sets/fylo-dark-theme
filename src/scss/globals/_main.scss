@@ -53,7 +53,10 @@ button {
             gap: 50px;
             a {
               color: v.$white;
-              font-size: 1.25rem;
+              &:hover {
+                font-weight: 700;
+                text-decoration: underline;
+              }
             }
           }
         }
@@ -77,6 +80,10 @@ button {
       border-radius: 30px;
       color: v.$white;
       font-size: 1rem;
+      cursor: pointer;
+      &:hover {
+        background-color: v.$cyan;
+      }
     }
     img {
       display: inline-block;
@@ -88,7 +95,6 @@ button {
 
     p {
       padding: 20px 0;
-      font-size: 1.25rem;
     }
   }
   &__main--section {
@@ -105,7 +111,8 @@ button {
       width: 100%;
       margin: 0 auto;
       padding-inline: 100px;
-      gap: 60px;
+      padding-bottom: 120px;
+      gap: 80px;
       li {
         color: v.$white;
         text-align: center;
@@ -115,11 +122,10 @@ button {
           padding-bottom: 15px;
         }
         p {
-          font-size: 1.25rem;
-          line-height: 1.9;
+          line-height: 1.4;
         }
         h3 {
-          font-size: 1.25rem;
+          padding-bottom: 10px;
         }
       }
     }
@@ -142,9 +148,19 @@ button {
 }
 
 @media (max-width: 768px) {
+  .illustration {
+    img {
+      &:first-child {
+        display: none;
+      }
+      &:last-child {
+        display: block;
+      }
+    }
+  }
   .app {
     &__navigation--section {
-      padding: 0;
+      padding: 0 20px;
       ul {
         li {
           &:last-child {
@@ -158,7 +174,7 @@ button {
             }
           }
           img {
-            width: 80%;
+            width: 50%;
           }
         }
       }
@@ -190,6 +206,9 @@ button {
           margin-bottom: 50px;
           img {
             margin-bottom: 10px;
+          }
+          p {
+            font-size: 1rem;
           }
         }
       }
