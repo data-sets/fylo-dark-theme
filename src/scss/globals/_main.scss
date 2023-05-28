@@ -169,6 +169,30 @@ button {
     }
   }
 
+  &__testimonial--section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin: 0 100px;
+    div {
+      background-color: v.$dark-blue-test-bg;
+      padding: 30px;
+      border-radius: 5px;
+      color: v.$white;
+      h5 {
+        font-weight: normal;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+
   &__footer--section {
     background-color: green;
   }
@@ -207,6 +231,9 @@ button {
           }
         }
       }
+    }
+    &__testimonial--section{
+      margin: 0 30px;
     }
     &__navigation--section {
       padding: 0 20px;

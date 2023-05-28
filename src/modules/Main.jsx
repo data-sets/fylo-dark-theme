@@ -4,6 +4,9 @@ import Access from "../images/icon-access-anywhere.svg";
 import Collab from "../images/icon-collaboration.svg";
 import Team from "../images/illustration-stay-productive.png";
 import Arrow from "../images/icon-arrow.svg";
+import Profile1 from "../images/profile-1.jpg";
+import Profile2 from "../images/profile-2.jpg";
+import Profile3 from "../images/profile-3.jpg";
 
 export default function Main() {
   return (
@@ -63,6 +66,50 @@ export default function Main() {
               <a href="/">
                 See how Fylo works <img src={Arrow} alt="Arrow" />
               </a>
+            </span>
+          </div>
+        </section>
+        <section className="app__testimonial--section">
+          <div>
+            <p>
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <span>
+              <img src={Profile1} alt="" />
+              <div>
+                <h4>Satish Patel</h4>
+                <h5>Founder & CEO, Huddle</h5>
+              </div>
+            </span>
+          </div>
+          <div>
+            <p>
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <span>
+              <img src={Profile2} alt="" />
+              <div>
+                <h4>Bruce McKenzie</h4>
+                <h5>Founder & CEO, Huddle</h5>
+              </div>
+            </span>
+          </div>
+          <div>
+            <p>
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <span>
+              <img src={Profile3} alt="" />
+              <div>
+                <h4>Iva Boyd</h4>
+                <h5>Founder & CEO, Huddle</h5>
+              </div>
             </span>
           </div>
         </section>
