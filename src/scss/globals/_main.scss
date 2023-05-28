@@ -174,13 +174,13 @@ button {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 
-    width: 80%;
     margin: 0 auto;
     div {
       background-color: v.$dark-blue-test-bg;
       padding: 30px;
       border-radius: 5px;
       color: v.$white;
+      width: 80%;
       h5 {
         font-weight: normal;
       }
