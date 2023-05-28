@@ -110,12 +110,16 @@ button {
         color: v.$white;
         text-align: center;
         width: 100%;
+
         img {
           padding-bottom: 15px;
         }
         p {
-          font-size: 1rem;
+          font-size: 1.25rem;
           line-height: 1.9;
+        }
+        h3 {
+          font-size: 1.25rem;
         }
       }
     }
