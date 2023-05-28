@@ -102,21 +102,20 @@ button {
       justify-content: center;
       align-items: center;
       grid-template-columns: 1fr 1fr;
-      gap: 60px;
+
       position: relative;
       margin-top: -30px;
-
+      max-width: 1080px;
       margin: 0 auto;
       li {
         color: v.$white;
 
         text-align: center;
-        padding: 0 120px;
+        padding: 20px;
         img {
           padding-bottom: 15px;
         }
         p {
-          padding-inline: 50px;
           font-size: 1rem;
         }
       }
