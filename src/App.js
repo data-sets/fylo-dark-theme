@@ -1,7 +1,7 @@
 import Navigation from "./modules/Navigation";
 import Header from "./modules/Header";
 import Main from "./modules/Main";
-// import Footer from "./modules/Footer";
+import Footer from "./modules/Footer";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Navigation />
         <Header />
         <Main />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
