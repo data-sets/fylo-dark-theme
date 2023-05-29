@@ -51,7 +51,7 @@ export default function Main() {
         </ul>
         <section className="app__production--section">
           <div>
-            <img src={Team} alt="Fylo" />
+            <img src={Team} alt="Team Illustration" />
           </div>
           <div>
             <h2>Stay productive, wherever you are</h2>
@@ -65,7 +65,7 @@ export default function Main() {
             </p>
             <span>
               <a href="/">
-                See how Fylo works <img src={Arrow} alt="Arrow" />
+                See how Fylo works <img src={Arrow} alt="Arrow Icon" />
               </a>
             </span>
           </div>

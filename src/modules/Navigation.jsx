@@ -11,7 +11,7 @@ const link = [
   },
   {
     id: 2,
-    title: "Sign in",
+    title: "Signin",
   },
 ];
 const listItems = link.map((data) => (

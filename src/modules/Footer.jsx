@@ -8,10 +8,10 @@ export default function Footer() {
     <>
       <footer className="app__footer--section">
         <div>
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="Fylo Logo" />
           <ul>
             <li>
-              <img src={Location} alt="" />
+              <img src={Location} alt="Location Icon" />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua

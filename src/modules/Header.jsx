@@ -16,7 +16,7 @@ export default function Header() {
         <button>Get Started</button>
       </header>
       <div className="illustration">
-        <img src={DesktopCurly} alt="Curly Shape" />
+        <img src={DesktopCurly} alt="Curly Shape Desktop" />
         <img src={MobileCurly} alt="Curly Shape Mobile" />
       </div>
     </>
