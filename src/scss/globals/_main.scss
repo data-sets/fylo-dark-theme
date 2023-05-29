@@ -107,12 +107,12 @@ button {
       align-items: center;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       position: relative;
-      max-width: 1080px;
       width: 100%;
+      max-width: 1080px;
       margin: 0 auto;
-
-      padding-bottom: 120px;
-      gap: 80px;
+      padding-inline: 120px;
+      padding-bottom: 130px;
+      gap: 120px;
       li {
         color: v.$white;
         text-align: center;
