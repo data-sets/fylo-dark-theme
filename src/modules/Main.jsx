@@ -115,6 +115,7 @@ export default function Main() {
             </span>
           </div>
         </section>
+        <section className="app__access--section"></section>
       </main>
     </>
   );
