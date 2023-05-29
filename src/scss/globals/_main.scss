@@ -185,9 +185,12 @@ button {
       padding: 30px;
       border-radius: 5px;
       color: v.$white;
-
+      width: 100%;
       h5 {
         font-weight: normal;
+      }
+      p {
+        font-size: 1rem;
       }
       span {
         display: flex;
