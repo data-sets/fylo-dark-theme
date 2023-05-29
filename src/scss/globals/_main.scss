@@ -108,15 +108,14 @@ button {
       align-items: center;
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
       width: 1080px;
-      max-width: 100%;
       margin: 0 auto;
       padding-bottom: 130px;
-      gap: 120px; 
+      gap: 120px;
       li {
         color: v.$white;
         text-align: center;
         padding: 0 20px;
-
+        width: 100%;
         img {
           padding-bottom: 15px;
           max-width: 100%;
