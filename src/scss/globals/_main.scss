@@ -100,27 +100,30 @@ button {
   }
   &__main--section {
     background-color: v.$dark-blue-main-bg;
-
+    position: relative;
     margin-top: -28px;
     ul {
       display: grid;
       justify-content: center;
       align-items: center;
-      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-      width: 1080px;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      position: relative;
+      width: 100%;
+      max-width: 1080px;
       margin: 0 auto;
+      padding-inline: 120px;
       padding-bottom: 130px;
       gap: 120px;
       li {
         color: v.$white;
         text-align: center;
         padding: 0 20px;
-        width: 100%;
+
         img {
           padding-bottom: 15px;
-          max-width: 100%;
-          width: 5rem;
+          max-width: 85px;
           height: auto;
+          width: 100%;
         }
         p {
           line-height: 1.4;
