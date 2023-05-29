@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <>
       <footer className="app__footer--section">
-        <img src={Logo} alt="" />
         <div>
+          <img src={Logo} alt="" />
           <ul>
             <li>
               <img src={Location} alt="" />
@@ -19,12 +19,13 @@ export default function Footer() {
             </li>
             <li>
               <a href="/">
-                <img src={Phone} alt="Phone Icon" />
-                +1-543-123-4567
+              
+                <p>+1-543-123-4567</p>
               </a>
               <br />
               <a href="/">
-                <img src={Mail} alt="Mail Icon" /> example@fylo.com
+               
+                <p>example@fylo.com</p>
               </a>
             </li>
             <li>

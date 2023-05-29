@@ -33,6 +33,7 @@ li {
 
 button {
   border: none;
+  cursor: pointer;
 }
 
 .app {
@@ -256,13 +257,14 @@ button {
   &__footer--section {
     background-color: v.$dark-blue-footer-bg;
     padding-block: 70px;
-    & > img {
-      max-width: 1280px;
-      width: 90px;
-      margin-left: 130px;
-      margin-bottom: 40px;
-    }
+
     div {
+      & > img {
+        position: relative;
+        width: 90px;
+        margin-bottom: 40px;
+        left: 2%;
+      }
       ul {
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
@@ -274,6 +276,9 @@ button {
         li {
           a {
             color: v.$white;
+            &:hover {
+              font-weight: 700;
+            }
           }
           &:first-child {
             display: flex;
@@ -284,6 +289,15 @@ button {
           }
           &:nth-child(2) {
             display: block;
+
+            img {
+              width: 18px;
+            }
+            a {
+              display: flex;
+              align-items: center;
+              gap: 15px;
+            }
           }
           &:nth-child(3) {
             display: inherit;
@@ -302,6 +316,16 @@ button {
               border: 1px solid v.$white;
               height: 30px;
               width: 30px;
+              :hover {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid v.$cyan;
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                color: v.$cyan;
+              }
             }
           }
         }
