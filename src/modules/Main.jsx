@@ -7,6 +7,7 @@ import Arrow from "../images/icon-arrow.svg";
 import Profile1 from "../images/profile-1.jpg";
 import Profile2 from "../images/profile-2.jpg";
 import Profile3 from "../images/profile-3.jpg";
+import Quote from "../images/bg-quotes.png";
 
 export default function Main() {
   return (
@@ -69,6 +70,7 @@ export default function Main() {
             </span>
           </div>
         </section>
+        <img src={Quote} alt="quote" className="app__quote" />
         <section className="app__testimonial--section">
           <div>
             <p>

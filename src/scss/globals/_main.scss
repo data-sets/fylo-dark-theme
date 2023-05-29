@@ -117,8 +117,6 @@ button {
         color: v.$white;
         text-align: center;
         padding: 0 20px;
-        word-wrap: break-word;
-        width: 100%;
 
         img {
           padding-bottom: 15px;
@@ -182,11 +180,12 @@ button {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
-    max-width: 1080px;
+    max-width: 1280px;
     margin: 0 auto;
+    padding-bottom: 150px;
     div {
       background-color: v.$dark-blue-test-bg;
-      padding: 30px;
+      padding: 35px 15px 20px 15px;
       border-radius: 5px;
       color: v.$white;
       width: 100%;
@@ -205,6 +204,11 @@ button {
         }
       }
     }
+  }
+  &__quote {
+    position: absolute;
+    left: 120px;
+    margin-top: -25px;
   }
 
   &__footer--section {
@@ -236,11 +240,14 @@ button {
     }
   }
   .app {
-    &__productive--section {
+    &__production--section {
       padding: 0 30px;
 
       div {
+        margin-bottom: 20px;
         &:last-child {
+          padding: 0;
+          margin-bottom: 120px;
           h2 {
             font-size: 1.5rem;
           }
@@ -250,6 +257,12 @@ button {
     &__testimonial--section {
       margin: 0 30px;
       display: block;
+      & > div {
+        margin-bottom: 20px;
+      }
+    }
+    &__quote {
+      left: 20px;
     }
     &__navigation--section {
       padding: 0 20px;
@@ -296,6 +309,7 @@ button {
         padding-inline: 30px;
         li {
           margin-bottom: 50px;
+          padding: 0;
           img {
             margin-bottom: 10px;
           }
