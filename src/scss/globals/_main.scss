@@ -258,6 +258,7 @@ button {
     background-color: v.$dark-blue-footer-bg;
     padding-block: 70px;
 
+    word-wrap: break-word;
     div {
       & > img {
         position: relative;
