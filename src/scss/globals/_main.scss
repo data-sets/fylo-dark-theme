@@ -100,18 +100,16 @@ button {
   }
   &__main--section {
     background-color: v.$dark-blue-main-bg;
-    position: relative;
+
     margin-top: -28px;
     ul {
       display: grid;
       justify-content: center;
       align-items: center;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      position: relative;
-      width: 100%;
-      max-width: 1080px;
+      width: 1080px;
+      max-width: 100%;
       margin: 0 auto;
-
       padding-bottom: 130px;
       gap: 120px;
       li {
