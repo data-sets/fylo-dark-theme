@@ -111,7 +111,7 @@ button {
       max-width: 100%;
       margin: 0 auto;
       padding-bottom: 130px;
-      gap: 120px;
+      gap: 120px; 
       li {
         color: v.$white;
         text-align: center;
@@ -119,8 +119,9 @@ button {
 
         img {
           padding-bottom: 15px;
-          width: 30px;
-          height: 50px;
+          max-width: 100%;
+          width: 5rem;
+          height: auto;
         }
         p {
           line-height: 1.4;

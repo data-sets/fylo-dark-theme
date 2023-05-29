@@ -129,7 +129,7 @@ export default function Main() {
                   type="text"
                   name="email"
                   id="email"
-                  placeholder="jade.arinal.banares@gmail.com"
+                  placeholder="email@example.com"
                 />
                 <button>Get Started For Free</button>
               </form>
