@@ -48,9 +48,9 @@ export default function Main() {
             </p>
           </li>
         </ul>
-        <section className="app__productive--section">
+        <section className="app__production--section">
           <div>
-            <img src={Team} alt="" />
+            <img src={Team} alt="Fylo" />
           </div>
           <div>
             <h2>Stay productive, wherever you are</h2>

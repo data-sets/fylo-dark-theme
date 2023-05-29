@@ -116,18 +116,15 @@ button {
       li {
         color: v.$white;
         text-align: center;
-
-        margin: 20px auto;
+        padding: 0 20px;
         word-wrap: break-word;
-        width: 90%;
+        width: 100%;
 
         img {
           padding-bottom: 15px;
         }
         p {
           line-height: 1.4;
-          font-size: 1rem;
-          padding-inline: 20px;
         }
         h3 {
           padding-bottom: 10px;
@@ -135,7 +132,7 @@ button {
       }
     }
   }
-  &__productive--section {
+  &__production--section {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -144,7 +141,9 @@ button {
     padding: 0 105px;
     gap: 20px;
     div {
+      width: 100%;
       margin-bottom: 150px;
+      padding: 0 20px;
       &:first-child {
         img {
           width: 100%;
@@ -160,6 +159,7 @@ button {
         }
         p {
           padding-bottom: 20px;
+          font-size: 1rem;
         }
         span {
           a {
