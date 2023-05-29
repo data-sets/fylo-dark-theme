@@ -19,12 +19,12 @@ export default function Footer() {
             </li>
             <li>
               <a href="/">
-              
+                <img src={Phone} alt="Phone Icon" />
                 <p>+1-543-123-4567</p>
               </a>
               <br />
               <a href="/">
-               
+                <img src={Mail} alt="Mail Icon" />
                 <p>example@fylo.com</p>
               </a>
             </li>
