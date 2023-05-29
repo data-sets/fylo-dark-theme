@@ -111,7 +111,7 @@ button {
       width: 100%;
       max-width: 1080px;
       margin: 0 auto;
-      padding-inline: 120px;
+
       padding-bottom: 130px;
       gap: 120px;
       li {
@@ -121,9 +121,9 @@ button {
 
         img {
           padding-bottom: 15px;
-          max-width: 85px;
+          max-width: 100%;
+          width: 80px;
           height: auto;
-          width: 100%;
         }
         p {
           line-height: 1.4;
