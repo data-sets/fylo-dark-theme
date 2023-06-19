@@ -8,7 +8,9 @@ export default function Footer() {
     <>
       <footer className="app__footer--section">
         <div>
-          <img src={Logo} alt="Fylo Logo" />
+          <div>
+            <img src={Logo} alt="Fylo Logo" />
+          </div>
           <ul>
             <li>
               <img src={Location} alt="Location Icon" />
@@ -39,7 +41,7 @@ export default function Footer() {
               <a href="/">Terms</a>
               <a href="/">Privacy</a>
             </li>
-            <li>
+            <li className="social-media">
               <a href="/">
                 <i className="fa fa-facebook"></i>
               </a>

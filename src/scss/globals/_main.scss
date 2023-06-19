@@ -121,7 +121,7 @@ button {
 
         img {
           padding-bottom: 15px;
-          max-width: 85px;
+          max-width: 65px;
           height: auto;
           width: 100%;
         }
@@ -183,7 +183,7 @@ button {
     gap: 30px;
     max-width: 1280px;
     margin: 0 auto;
-    padding-bottom: 150px;
+    padding-bottom: 80px;
     div {
       background-color: v.$dark-blue-test-bg;
       padding: 35px 15px 20px 15px;
@@ -213,27 +213,33 @@ button {
   }
 
   &__access--section {
-    display: grid;
+    display: flex;
     justify-content: center;
     background-color: v.$dark-blue-sign-up;
     max-width: 800px;
     margin: 0 auto;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+    position: relative;
+    top: 90px;
+    z-index: 9999;
     div {
       text-align: center;
       width: 80%;
       margin: 0 auto;
       color: v.$white;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+        0 2px 4px -2px rgb(0 0 0 / 0.1);
       h2 {
         margin-bottom: 20px;
-        padding-top: 30px;
+        padding-top: 50px;
       }
       p {
         font-size: 1rem;
         margin-bottom: 20px;
+        padding: 10px 20px;
       }
       div {
-        padding-bottom: 30px;
+        padding-bottom: 60px;
         form {
           display: flex;
           justify-content: center;
@@ -241,6 +247,7 @@ button {
           input {
             width: 100%;
             padding: 10px;
+            padding: 10px 10px 10px 20px;
             border-radius: 20px;
           }
           button {
@@ -255,16 +262,20 @@ button {
   }
 
   &__footer--section {
+    position: relative;
     background-color: v.$dark-blue-footer-bg;
     padding-block: 70px;
-
     word-wrap: break-word;
+    padding-top: 150px;
     div {
-      & > img {
-        position: relative;
-        width: 90px;
-        margin-bottom: 40px;
-        left: 2%;
+      div {
+        max-width: 1280px;
+        margin: 0 auto;
+        & > img {
+          position: relative;
+          width: 90px;
+          margin-bottom: 40px;
+        }
       }
       ul {
         display: grid;
@@ -363,12 +374,16 @@ button {
   .app {
     &__footer--section {
       div {
+        div {
+          padding-left: 20px;
+        }
         ul {
           padding-inline: 20px;
           display: block;
           li {
             margin-bottom: 20px;
             display: block;
+
             :nth-child(2) {
               display: inherit;
             }
@@ -377,6 +392,11 @@ button {
             }
           }
         }
+      }
+      .social-media {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
       }
     }
     &__production--section {
